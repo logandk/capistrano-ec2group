@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "capistrano-ec2group"
-  s.version = "1.0.4"
+  s.version = "1.0.5"
 
   s.author = "Logan Raarup"
   s.email = "logan@logan.dk"
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary = "Capistrano plugin for deploying to Amazon EC2 instances by security groups."
   
   s.has_rdoc = true
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--main", "README.markdown"]
+  s.rdoc_options = ["--line-numbers", "--inline-source"]
   
   s.files = ["MIT-LICENSE", "Rakefile", "README.markdown", "lib/capistrano/ec2group.rb", "test/ec2group_test.rb"]
   s.require_paths = ["lib"]
