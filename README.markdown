@@ -28,7 +28,7 @@ Installation
 You can install it with RubyGems:
 
 	$ gem sources -a http://gems.github.com (you only have to do this once)
-	$ sudo gem install logandk-capistrano-ec2group
+	$ gem install logandk-capistrano-ec2group
 
 
 Usage
