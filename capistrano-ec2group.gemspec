@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name = "capistrano-ec2group"
-  s.version = "1.0.3"
+  s.version = "1.0.4"
 
   s.author = "Logan Raarup"
   s.email = "logan@logan.dk"
-  s.date = "2009-06-18"
+  s.date = "2009-06-19"
   
   s.homepage = "http://github.com/logandk/capistrano-ec2group"
   s.summary = "Capistrano plugin for deploying to Amazon EC2 instances by security groups."
