@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "capistrano-ec2group"
-  s.version = "1.0.5"
+  s.version = "1.0.6"
 
   s.author = "Logan Raarup"
   s.email = "logan@logan.dk"
@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   
   s.homepage = "http://github.com/logandk/capistrano-ec2group"
   s.summary = "Capistrano plugin for deploying to Amazon EC2 instances by security groups."
+  s.rubyforge_project = "capistrano-ec2g"
   
   s.has_rdoc = true
   s.rdoc_options = ["--line-numbers", "--inline-source"]
