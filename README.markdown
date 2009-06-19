@@ -29,7 +29,7 @@ You can install it with RubyGems, through RubyForge or GitHub.
 
 RubyForge
 ---------
-	$ gem install logandk-capistrano-ec2group
+	$ gem install capistrano-ec2group
 
 GitHub
 ------
