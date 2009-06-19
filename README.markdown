@@ -25,8 +25,14 @@ Installation
 * Capistrano 2 gem
 * RightAWS gem
 
-You can install it with RubyGems:
+You can install it with RubyGems, through RubyForge or GitHub.
 
+RubyForge
+---------
+	$ gem install logandk-capistrano-ec2group
+
+GitHub
+------
 	$ gem sources -a http://gems.github.com (you only have to do this once)
 	$ gem install logandk-capistrano-ec2group
 
