@@ -56,6 +56,12 @@ In order to define your instance groups, you must specify the security group nam
 	
 Then just sit back, relax and `cap deploy`!
 
+
+Credits
+=======
+Additional RDoc documentation is available at: [http://rdoc.info/projects/logandk/capistrano-ec2group](http://rdoc.info/projects/logandk/capistrano-ec2group)
+
+
 Credits
 =======
 * Capistrano: [http://github.com/jamis/capistrano](http://github.com/jamis/capistrano)
