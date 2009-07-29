@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "capistrano-ec2group"
-  s.version = "1.0.7"
+  s.version = "1.0.8"
 
   s.author = "Logan Raarup"
   s.email = "logan@logan.dk"
