@@ -67,11 +67,18 @@ Documentation
 =============
 Additional RDoc documentation is available at: [http://rdoc.info/projects/logandk/capistrano-ec2group](http://rdoc.info/projects/logandk/capistrano-ec2group)
 
+* capistrano: [http://capify.org](http://capify.org)
+* RightAws: [http://rightaws.rubyforge.org](http://rightaws.rubyforge.org)
+* Amazon AWS: [http://aws.amazon.com](http://aws.amazon.com)
 
 Credits
 =======
-* Capistrano: [http://github.com/jamis/capistrano](http://github.com/jamis/capistrano)
-* RightAws: [http://rightaws.rubyforge.org](http://rightaws.rubyforge.org)
-* Amazon AWS: [http://aws.amazon.com](http://aws.amazon.com)
+* capistrano-ec2group: [Logan Raarup](http://github.com/logandk)
+* capistrano: [Jamis Buck](http://github.com/jamis/capistrano)
+
+
+###Thanks to###
+* [Phillip Goldenburg](http://github.com/phillip) - Terminated instance bug fix
+
 
 Copyright (c) 2009 Logan Raarup, released under the MIT license
