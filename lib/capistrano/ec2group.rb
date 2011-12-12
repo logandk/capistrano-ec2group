@@ -20,7 +20,9 @@ module Capistrano
         @ec2_api ||= RightAws::Ec2.new(fetch(:aws_access_key_id), fetch(:aws_secret_access_key), fetch(:aws_params, {}))
 
         @ec2_api.describe_instances.delete_if{|i| i[:aws_state] != "running"}.each do |instance|
-          server(instance[:dns_name], *args) if instance[:aws_groups].include?(which.to_s)
+          instance[:groups].each do |group|
+            server(instance[:dns_name], *args) if group[:group_name].include?(which.to_s)
+          end
         end
       end
     end
