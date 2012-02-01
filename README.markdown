@@ -49,10 +49,14 @@ Then you must specify your Amazon EC2 credentials:
 	set :aws_access_key_id, '???'
 	set :aws_secret_access_key, '???'
 
+If you are running capistrano from ec2 and would like to use private dns names
+
+	set :aws_pvt_dns, true
+	
 Optionally setting additional parameters, such as the region:
 
 	set :aws_params, :region => 'eu-west-1'
-	
+
 In order to define your instance groups, you must specify the security group name, the roles and params:
 
 	group :webserver, :web
