@@ -21,7 +21,7 @@ module Capistrano
 
         @ec2_api.describe_instances.delete_if{|i| i[:aws_state] != "running"}.each do |instance|
           instance[:groups].each do |group|
-            server(instance[:dns_name], *args) if group[:group_name].include?(which.to_s)
+            server(fetch(:aws_pvt_dns) ? instance[:private_dns_name] : instance[:dns_name], *args) if group[:group_name].include?(which.to_s)
           end
         end
       end
