@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "capistrano-ec2group"
-  s.version = "1.0.8"
+  s.version = "1.0.9"
 
   s.author = "Logan Raarup"
   s.email = "logan@logan.dk"
@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   
   s.add_dependency "capistrano", ">=2.1.0"
-  s.add_dependency "right_aws"
+  s.add_dependency "right_aws", ">=3.0.0"
 end
